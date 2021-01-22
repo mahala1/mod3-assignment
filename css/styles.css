@@ -1,0 +1,53 @@
+body {
+  font-size: 16px;
+  background-color: white;
+  font-family: "verdana", sans-serif;
+}
+.container-fluid {
+	border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+    background-color: grey;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  font-family: "arial";
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  color: black;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;}
+ h2{
+  	margin-bottom: 50px;
+ }
+ .container .row {
+ 	border:2px solid black;
+ 	margin: 20px;
+ 	background-color: grey;
+ 	text-align: justify;
+ 	color: black;
+ }
